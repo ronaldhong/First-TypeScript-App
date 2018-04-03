@@ -1,7 +1,15 @@
 function startGame(){
   //starting a new Game
-  let messageElement = document.getElementById('message');
-  messageElement.innerText = "Welcome! Starting new Game";
-}
+  const playername: string = "Ronald";
+  logPlayer(playername);
 
-document.getElementById("StartGame").addEventListener('click',startGame);
+  var messageElement = document.getElementById('message');
+
+  messageElement.innerText = "Welcome! Starting new Game";
+  console.log("Starting new Game.");
+};
+function logPlayer(name){
+  console.log(`New Game for ${name} `);
+};
+
+document.getElementById("StartGame").addEventListener('click', startGame);
