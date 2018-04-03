@@ -3,3 +3,4 @@ function startGame() {
     messageElement.innerText = "Welcome! Starting new Game";
 }
 document.getElementById("StartGame").addEventListener('click', startGame);
+//# sourceMappingURL=app.js.map
